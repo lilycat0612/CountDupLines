@@ -1,176 +1,230 @@
-ls	355
-cd ..	59
-sudo netstat -tulpn	55
-docker ps	44
-history	30
-scrapy crawl weisuen --nolog	29
+ls	477
+cd ..	77
+docker ps	66
+sudo netstat -tulpn	56
+python3	46
+cat runlog.txt	42
+history	38
+scrapy crawl weisuen --nolog	32
+cd myScrapy/	31
+cd myFirst/	29
+git diff	28
+ls -l	28
+git add *	27
+date	27
+git push	27
+python	26
 sudo shutdown -h now	26
 cat my_hist.log	25
-cd myFirst/	24
-python3	23
-git diff	22
+ip a	24
+. myFirst.sh	24
 ./socksproxy.sh	22
 cd conf/network/	22
-cd myScrapy/	21
-ip a	21
-cat runlog.txt	20
-python	17
-ls -l	17
-git push	17
-git add *	16
+git pull	21
+ifconfig	20
+cat /home/pi/python_code/hello.txt	20
+cat /home/pi/python_code/hello1.txt	20
+vim myFirst.sh	19
+docker images	18
+sudo vim backup.sh	16
+vim runlog.txt	16
 scrapy crawl first.py	16
-ifconfig	15
+cd python_code/	15
 ./mynet.sh	15
-date	13
-. myFirst.sh	12
-cd Downloads/	11
+sudo vim crontab	14
+cat myFirst.sh	14
+vim IP.txt	13
+scrapy crawl weisuen	12
+pip install pyquery	12
+cat backup.sh	12
+python history.py	12
+cd Scrapy/	12
+cd Downloads/	12
+sudo /etc/init.d/cron restart	12
+cd CountDupLines/	11
+uname -a	11
+. backup.sh	11
 cd python/	10
 conf/network/socksproxy.sh	10
+su	10
 nohup sslocal -c /home/lily/ss-60-dir.json > /home/lily/conf/network/log-ss-60.log 2>&1 &	10
-docker images	10
-cat /home/pi/python_code/hello.txt	10
-git pull	10
-cat /home/pi/python_code/hello1.txt	10
-scrapy crawl weisuen	9
-pip install pyquery	9
-sudo vim backup.sh	9
-cd ~	9
-vim myFirst.sh	9
+cat IP.txt	10
+cat crontab	10
+docker cp FindSendIP.py 1323defe103a:/home/FindSendIP.py	10
+cd ~	10
+sudo pip3 install pyquery	10
+pip3 list	10
+sudo vim FindSendIP.py	10
+cd spiders/	9
+sudo reboot now	9
 cat /proc/sys/net/ipv4/ip_forward	8
+pip3 install pyquery	8
 google-chrome	8
+cat /etc/crontab	8
 cat socksproxy.sh	8
-python history.py	8
 ./socksproxy.sh none	8
+pip list	8
 su -	8
-sudo reboot now	8
+vncserver	8
+cd /etc/	8
 conf/network/mynet.sh	8
-vim runlog.txt	8
+docker network ls	8
+cp /etc/crontab ./	8
+ping baidu.com	8
+rm runlog.txt	8
 git clone https://github.com/lilycat0612/Selenium	8
-cd spiders/	7
-su	7
-cat backup.sh	7
-sudo vim crontab	7
-. backup.sh	7
-cat myFirst.sh	7
-pip3 list	7
+ls -alt	7
+git	7
 ./socksproxy.sh manual 127.0.0.1 1080	6
+ping pypi.python.org	6
 sslocal -c conf/network/ss-60.json	6
+docker run -t -i --network='host' arm32v7/python python /home/FindSendIP.py	6
 shutdown -h now	6
-cd CountDupLines/	6
-cd python_code/	6
+ps aux	6
+pip install upgrade	6
+pip3 -V	6
+git commit -m "the history of rpi"	6
 sudo pip install shadowsocks	6
 cat conf/network/ss-60.json	6
-pip list	6
+cat /home/pi/python_code/Scrapy/runlog.txt	6
+sudo vim /etc/crontab	6
+sudo git push origin master	6
+sudo iptables-save	6
+docker cp IP.txt 1323defe103a:/home/IP.txt	6
 ls conf/network/	6
 cd GitHub/	6
-uname -a	6
-cd Scrapy/	6
-ls -alt	6
+sudo vim /usr/local/lib/python3.5/dist-packages/restkit/errors.py	6
+pip3 install upgrade	6
 sudo netstat -tupln	6
+pip install pyopenssl	6
+pip -V	6
 sudo passwd root	6
+. /home/pi/python_code/Scrapy/myScrapy/myFirst/myFirst/spiders/myFirst.sh	6
 sudo apt update	6
 sudo dpkg -i chrome-stable-amd64.deb	6
-git	6
+cd /backup/	6
 cat ss-60-dir.json	6
-sudo /etc/init.d/cron restart	6
+netstat -tulpn	6
+docker run -t -i --network='host' arm32v7/python python /home/pi/python_code/pi/FindSendIP.py	6
 ./jmeter.sh	6
+docker run -i -t armhf/python /bin/bash	6
+docker search python	6
+scrapy	6
 cat mynet.sh	6
-sudo git push origin master	5
-vim IP.txt	5
-cat crontab	5
-cd /etc/	5
-docker cp FindSendIP.py 1323defe103a:/home/FindSendIP.py	5
-sudo pip3 install pyquery	5
-sudo vim FindSendIP.py	5
-ping baidu.com	5
-docker search python	5
-pip3 install pyquery	4
+cat cmd.txt	5
+cd //	5
+sudo vim rules.v4	4
+pip install update pip	4
+sudo apt-get install libxml2-dev	4
+sudo systemctl restart sshd	4
+cd python_code/Scrapy/	4
+crontab -l	4
 sudo iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT	4
+history >> history.txt	4
 groups	4
 cd apache-jmeter-3.2/	4
-cat /etc/crontab	4
+sudo python setup.py install	4
+ls -l /home/pi/python_code/hello.txt	4
+sudo ls -alt	4
+sudo pip3 install urlparse	4
+cd python_code/Scrapy/myScrapy/myFirst/	4
+uname -r	4
+cat /root/.pip/pip.log	4
 sudo sslocal -c ss-60.json	4
 google-chrome &	4
+cd backup/	4
 cd /home	4
 python ttmeiju.py	4
-cat IP.txt	4
+cd myFirst/myFirst/spiders/	4
 rm -rf a	4
 python --version	4
 pip install shadowsocks	4
+git pull git@git.com:lilycat0612@myScrapy.git	4
 cd /media	4
 sudo apt install python3-pip	4
-vncserver	4
+telent localhost 10422	4
+ping https://pypi.python.org/pypi	4
 cat Dockerfile	4
 passwd	4
 nohup sslocal -c /home/lily/conf/network/ss-60.json > /home/lily/conf/network/log-ss-60.log 2>&1 &	4
+sudo vim /home/pi/python_code/hello.txt	4
+sudo docker ps	4
+. /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	4
 cd rpi_backup/	4
 docker version	4
+docker rm 51b6af2f9a9b	4
+sudo ntpdate asia.pool.ntp.org	4
 cd lily	4
 sudo iptables -A INPUT -p tcp --dport 1080 -j ACCEPT	4
+sduo . /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	4
 telent 127.0.0.1:6023	4
 vim socksproxy.sh	4
+ls -l /home/pi/python_code/hello1.txt	4
 ping www.google.com	4
+sudo docker attach 0972065e4f31	4
+sudo apt-get install telnet	4
+sudo apt-get install cStringIO	4
 java -version	4
+cd /home/pi/python_code/Scrapy/	4
+docker run -ti --network='host' armhf/python /bin/bash	4
 ls -alh	4
+pip install scrapy	4
 cd a	4
 cd Selenium/	4
 cd conf/	4
+cd /home/pi/Downloads/	4
 vim ss-60-dir.json	4
-pip install pyopenssl	4
+docker rmi hypriot/rpi-python	4
 sudo apt install -f	4
+cat /etc/hosts	4
 sudo netstat -antupn	4
 scrapy crawl myFirst/myFirst/scrapy/weisuen --nolog	4
+pip3 install upgrade -i https://pypi.python.org/pypi	4
+docker stop	4
+docker network inspect bridge	4
 python3 --version	4
-docker network ls	4
+cat /home/pi/python_code/hello.sh	4
+docker pull arm32v7/python	4
+sudo reboot -n	4
 sudo iftop	4
+pip3 install lxml	4
 docker run -d -P training/webapp python app.py	4
-cp /etc/crontab ./	4
+sudo python3 setup.py install	4
+ls -al	4
 cat ss-60.json	4
-rm runlog.txt	4
-netstat -tulpn	4
+sudo pip3 install lxml	4
+python3 setup.py install	4
+pip -v	4
 cat conf/network/mynet.sh	4
 vim my_hist.log	4
-scrapy	4
 cd bin/	4
 docker run -i -t ubuntu:15.10 /bin/bash	4
-sudo systemctl restart sshd	3
-ping pypi.python.org	3
-history >> history.txt	3
+chkconfig --list	4
+sudo vim IP.txt	4
 vim BT.sh	3
 cd network/	3
-docker run -t -i --network='host' arm32v7/python python /home/FindSendIP.py	3
-sudo ls -alt	3
-ps aux	3
-pip install upgrade	3
-pip3 -V	3
-cd backup/	3
-git commit -m "the history of rpi"	3
-cd myFirst/myFirst/spiders/	3
-cat /home/pi/python_code/Scrapy/runlog.txt	3
-cd //	3
-sudo vim /etc/crontab	3
-sudo iptables-save	3
+git push origin master	3
+cd pi	3
+ping github.com	3
 sudo vim BT.sh	3
+cd myScrapy/myFirst/	3
 sudo rm -rf rpi_backup/	3
-docker cp IP.txt 1323defe103a:/home/IP.txt	3
-sudo vim /usr/local/lib/python3.5/dist-packages/restkit/errors.py	3
-pip3 install upgrade	3
-sudo apt-get install telnet	3
-pip -V	3
-docker stop	3
-. /home/pi/python_code/Scrapy/myScrapy/myFirst/myFirst/spiders/myFirst.sh	3
+s	3
+git clone git@github.com:lilycat0612/CountDupLines.git	3
+sudo git push	3
+sudo git pull	3
 sudo shutdonw -h now	3
 . BT.sh	3
 python /home/lily/python/myScrapy/myFirst/mySelenium/ttmeiju.py	3
-sudo reboot -n	3
-cd /backup/	3
-ls -al	3
-docker run -t -i --network='host' arm32v7/python python /home/pi/python_code/pi/FindSendIP.py	3
-docker run -i -t armhf/python /bin/bash	3
+sudo vim backup.txt	3
+rm code_1.14.2-1500506907_amd64\ \(1\).deb	2
 history | grep apt	2
+. history.sh	2
 sudo apt puppet	2
 cd ~/BT/	2
+docker attach bcf18d89b057	2
 pip update	2
+docker run -ti --network='host' arm32v7/python /bin/bash	2
 sudo dpkg -P chrome-stable-amd64	2
 sudo systemctl restart network	2
 sestatus	2
@@ -179,691 +233,656 @@ sudo systemctl network restart	2
 cd ~/GitHub/	2
 git remote	2
 sudo netstat	2
-sudo vim rules.v4	2
+docker run -ti armhf/python /bin/bash	2
 sudo netstat -tun	2
 pip -version	2
 cat conf/network/socksproxy.sh	2
+git pullgit@github.com:lilycat0612/myScrapy.git	2
 sudo netstat -tn | less	2
 cd ~/python/	2
 cd /Github	2
-pip install update pip	2
+sudo pip3 install urllib.parse	2
+pa aux | grep ntpd	2
 git reset --hard	2
+git log	2
 ping 192.168.1.141	2
 scrapy crawl first.py --nolog	2
 cmd	2
-sudo apt-get install libxml2-dev	2
+list	2
 cat \proc\sys\net\ipv4\ip_forward	2
 ssh-keygen -t rsa	2
 sudo netstat -t	2
+sudo pip install lxml	2
+cd pyquery-1.2.17/	2
+docker -D	2
 sudo apt-get install default-jre	2
+tar zxvf pip-9.0.1.tar.gz	2
+scrapy3 crawl weisuen --nolog	2
 cd VBOXADDITIONS_5.1.22_115126/	2
+sudo pip3 install libxml	2
 rm weisuen.py	2
 sudo netstat -tulpn | grep 22	2
-cd python_code/Scrapy/	2
+docker rm $(docker ps -a -q)	2
+. /home/pi/python_code/hello.sh >> /home/pi/python_code/hello1.txt	2
+ping https://pypi.python.org	2
 cat /etc/sysconfig/il8n	2
-crontab -l	2
+version	2
+cd /usr/local/lib/python3.5	2
+ls --color	2
+docker run -t -i --network='host'arm32v7/python python /home/FindSendIP.py	2
 scp winsonsun@192.168.1.26:socksproxy.sh ./socksproxy.sh	2
 pip upugrade	2
 ls /media	2
+cd python_	2
+ping https://pypi.python.org/simple	2
 sudo apt -f install	2
+sudo pip3 install cssselect	2
+sudo docker attach 0972065e431	2
 docker pull python:3.4	2
 vim install-cmd-list.txt	2
+docker network connect --ip 192.168.1.104 bridge d39566ffed1d	2
+cat conn.py	2
+sudo pip3 uninstall pyquery	2
 shutdown -r	2
+python setup.py install	2
+docker run -i -t rgooler/rpi-python3 /bin/bash	2
+sudo dpkg -icode_1.14.2-1500506907_amd64.deb	2
 sudo kill -9 5051	2
 cat weisuen.py	2
 sudo killall chrome	2
+docker run -itd -network	2
+pip version	2
 cd ~/Downloads	2
 telnet 13.68.93.156 10211	2
+sudo apt-get install python-dev	2
+sudo pip3 install upgrade pyqeury	2
+cd home	2
+docker cp email.txt 1323defe103a:/home/email.txt	2
 vim	2
-sudo python setup.py install	2
+ping www.python.org	2
 unzip Selenium-master.zip	2
 rm -f ss-60-dir.json	2
 mkdir -p a/{b c}/d	2
+sudo pip3 install --upgrade lxml	2
 vim semanage.conf	2
-git push origin master	2
+sudo apt-get install urlparse	2
+docker port dreamy_goldbery	2
+pip3 install upgrade lxml	2
+sudo dpkg code_1.14.2-1500506907_amd64.deb	2
 vim conf/network/mynet.sh	2
+docker run -d -P armhf/python  /bin/bash/python	2
 sudo killall -9 python	2
-ls -l /home/pi/python_code/hello.txt	2
 cd /home/lily	2
 scp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome_stable-amd64.deb	2
 sudo netstat -tulpn | grep 10800	2
-sudo pip3 install urlparse	2
 cd /etc	2
 rm a\ c}	2
+cat scrapy.cfg	2
 ping 192.168.1.104	2
 cat	2
+docker run -i -t hypriot/rpi-python /bin/bash	2
+rm code_*	2
 sudo systemctl enable sshd.service	2
-cd pi	2
-ping github.com	2
+sudo pip3 uninstall lxml	2
 tail -f log-ss-60.log	2
+sudo	2
 docker run -i -t ubuntu:15.10 /bin/echo "Hello lily"	2
 sudo df -lh	2
+docker run -t -i arm32v7/python /bin/bash	2
+docker inspect -f '{{.Id}}' 1323defe103a	2
 cat sysctl.conf	2
+sudo chown pi backup.txt	2
+docker port	2
+git commit -m "Pass if run myFirst.sh but FAIL if run crontab"	2
+pip install cssselect	2
+vim rules.v4	2
 docker logs -f 4ee66f0f04d6	2
+chown pi pi /home/pi/python_code/hello.txt	2
 sudo pip install --upgrade pip	2
 docker run ubuntu:15.10 /bin/echo "hello world"	2
+sudo pip3 install update pyqeury	2
 docker ps -|	2
+pip3 install upgrade pyquery	2
 cd myapp/	2
+cd /usr/local/bin/python3,5	2
 sudo service start openssh	2
+git remote -v	2
 lily/python/myScrapy/myFirst/myFirst/spiders/scarpy crawl weisuen --nolog	2
+uname -i	2
+uname -o	2
 cd ../..	2
-uname -r	2
+mv /home/pi/python_code/Scrapy/myFirst.sh ./	2
 scp winsonsun@192.168.1.26:ss-60-share.json ./ss-60.json	2
+docker connect thirsty_blackwell	2
+sudo pip3 install upgrade pyquery	2
 rm 'a c}'	2
-cat /root/.pip/pip.log	2
+docker run -t -i qbtrade/python /bin/bash	2
+sudo dkpg -i code_1.14.2-1500506872_i386.deb	2
+curl -o https://pypi.python.org/packages/dc/37/c2012b88a0ba957b5f27619054eaf21d66b7fd7261d8ade998f1e154eb46/pyquery-1.2.17.tar.gz#md5=d717362281a7b284511f4693b9a1f336	2
 chmod 777 conf/network/mynet.sh	2
+sudo pip install Twisted==16.0.0	2
+cd sysconfig	2
+sudo restart -h now	2
+cat hello.sh	2
 history | apt	2
 dpkg -l google-chrome*	2
+cat rules.v4	2
+sudo . /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	2
 history | grep sslocal	2
+docker attach thirsty_blackwell	2
+pip3 help install	2
 sudo apt install openssh-serve	2
+docker run -d -P -ti armhf/python  /bin/bash/	2
 docker run -i -t -d ubuntu:15.10 /bin/echo "Hello lily"	2
+sudo vim runlog.txt	2
 scrapy crawl ttmeiju.py --nolog	2
 sudo systemctl enalbe sshd.service	2
 sslocal conf/network/ss-60.json	2
 docker run ubantu:15.10 /bin/echo "hello world"	2
+cp myFirst/spiders/email.txt ./	2
+docker python	2
+scrapy crawl weisun --nolog	2
+docker network connect eth0 d39566ffed1d	2
+cd python_c	2
 cd /home/lily/python/myScrapy/	2
+cd myFirst/CountDupLines/	2
+docker --help	2
+cat /backup/backup.sh	2
+telnet -tulpn	2
+cd /etc/init.d/	2
 rm "a c}	2
 sudo systemctl enalb esshd.service	2
 sudo kill -9 3392	2
+cd /etc/init.d	2
 cd ~/GitHub	2
 docker run -d -P trainingg/webapp python app.py	2
 l	2
 ip -a	2
 vim conf/network/ss-60.json	2
+cp myFirst/spiders/IP.txt ./	2
+sudo git fetch	2
+sudo chown pi pi /home/pi/python_code/hello1.txt	2
+pip install update pyopenssl	2
 ls -a	2
+cd /etc/crontab	2
+pip uninstall pip	2
+sudo telnet localhost 10422	2
 . socksproxy.sh	2
 conf/network/socksproxy.sh manual 127.0.0.1 1080	2
+sudo chown pi /home/pi/python_code/hello1.txt	2
 sudo shutdown -r now	2
+sudo pip3 install urlparse2	2
+chkconfig	2
 docker pull django:1.7	2
 tar zxvf apache-jmeter-3.2.tgz	2
+sudo restart	2
 ipa	2
 sudo systemctl enable esshd.service	2
+pip install version	2
+sudo apt-get install python3-dev	2
 rm "a c}"	2
-cat cmd.txt	2
+pip3 install update pip	2
 sudo sslocal -c ~conf/network/ss-60.json	2
+ping pypi.python.org/pypi	2
 cat id_rsa.pub	2
 sudo apt install libappinidicator1	2
+vnserver	2
 ssh-keygen -t rsa -C "27803532@qq.com"	2
+sudo pip3 install cStringIO	2
 sudo apt-get install default-jdk	2
 scp winsonsun@192.168.1.26:chrome_stable_amd64.deb ./chrome-stable-amd64.deb	2
+vim crontab	2
+sudo vim conn.py	2
+vim sudo backup.sh	2
+sudo telent localhost 10422	2
+sudo apt-get install libxslt1-dev	2
 sudo vim sysctl.conf	2
 sudo dpkg -P google-chrome-stable	2
+sudo dpkg -I code_1.14.2-1500506907_amd64.deb	2
+sudo pip3 install WebOb	2
 cat semanage.conf	2
 cd lily/python/myScrapy/myFirst/myFirst/spiders/	2
 sudo apt install openssh-client	2
+cd /home/pi/python_code/	2
 docker stop optimistic_goodall	2
 python$ docker search python	2
+docker network connect --ip 192.168.1.104 none d39566ffed1d	2
+pip3 install --upgrade cssselect	2
+docker pull armhf/python	2
 sudo git clone https://github.com/lilycat0612/rpi_backup.git	2
+python3 setup.py	2
 "	2
-git pull git@git.com:lilycat0612@myScrapy.git	2
 ./autorun.sh	2
+git fetch git@github.com:lilycat0612/myScrapy.git	2
 docker inspect 4ee66f0f04d6	2
+docker -help	2
+sudo cp conn.py conn.py.backup	2
 cd ~/conf/network/	2
+ntpdate asia.pool.ntp.org	2
+sudo backup.sh	2
 vim sysctl.conf	2
 scrapy crawl weisuen --nolo	2
 cat -proc-sys-net-ipv4-ip_forward	2
+cd /usr/local/lib/python3.5/dist-packages/restkit/	2
 mkdir -p a/{b,c}/d	2
 cd /home/lily/	2
+cat /sbin/init	2
+cat /etc/resolv.conf	2
+sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 10422 -j ACCEPT	2
 mv history.py ..	2
 ./socksproxy.sh 127.0.0.1 1080	2
 mkdir -p myapp	2
+cat ~/.ssh/id_rsa.pub	2
 sudo gpasswd -a ${USER} docker	2
+docker run -itd -network=eth0 armhf/python /bin/bash	2
+curl https://pypi.python.org/pypi?:action=show_md5&digest=35f01da33009719497f01a4ba69d63c9	2
 sudo netstat -t | less	2
 pip help	2
+sudo ls	2
 cd conf/network	2
+./myFirst.sh	2
 pip helo	2
+ping pypi.python.org/simple	2
+git remote set-url origin git@github.com:lilycat0612/rpi.git	2
+docker run -t -i --network='host'armhf/python python /home/FindSendIP.py	2
+pip3 install -U	2
 cd .cache	2
+iptables-save	2
 pip3	2
-telent localhost 10422	2
+docker network connect --ip 192.168.1.104 d39566ffed1d	2
 ps -aux | grep python	2
-ping https://pypi.python.org/pypi	2
-cd myScrapy/myFirst/	2
+git fetch	2
 docker run -i -t ubuntu:15.10 /bin/echo"Hello lily"	2
+curl https://pypi.python.org/pypi/pip/	2
 ps -aux	2
 sudo apt install puppet	2
+cat /home/pi/python_code/Scrapy/myScrapy/myFirst.sh	2
+pip3 install upgrade -i https://testpypi.python.org/pypi	2
 sudo apt -y update	2
 cd ~/.config/	2
 sudo apt install iftop	2
 man mkdir	2
 cd /etc/sysconfig	2
 passws	2
+pip3 install --upgrade	2
 vim vpn.txt	2
 cd /Downloads	2
+docker stop e42f419e4c5e	2
 unzip chromedriver_linux64.zip	2
-sudo vim /home/pi/python_code/hello.txt	2
+docker attach 0972065e431	2
 mkdir -p ~/python ~python/myapp	2
 sudo kill -9 5024	2
 . mynet.sh	2
-sudo docker ps	2
+sudo docker rmi qbtrade/python	2
 telnet 127.0.0.1 1080	2
-. /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	2
+docker run -ti arm32v6/alpin:3.5 /bin/sh	2
 cat /home/lily/my_hist.log	2
 cd /home/python/	2
 sudo apt-get install git	2
+docker run -d -P -ti armhf/python  /bin/bash	2
 history | less	2
 sudo systemctl start sshd.service	2
+docker pull rgooler/rpi-python3	2
 git commit -m "Finished"	2
+iptables	2
+docker rmi rgooler/rpi-python3	2
 sudo apt uninstall puppet	2
 pip3 -list	2
+sudo git commit -m 'send email successfully by docker'	2
 sslocal -c ss-60.json	2
+docker port unknown	2
+cat FindSendIP.py	2
 easy_install  pyquery	2
 cd python/myScrapy/	2
 git config --global http.proxy 'socks5://127.0.0.1:1080'	2
-docker rm 51b6af2f9a9b	2
-sudo ntpdate asia.pool.ntp.org	2
+docker run --dns	2
 pip3 install Django	2
+telnet localhost 10422	2
+docker rmi $(docker images -q)	2
 sudo netstat -tu	2
 git remote add origin git@github.com lilycat0612@selenium.git	2
 scrapy crawl weisuen.py	2
 mkdir -p conf/network	2
 scrapy first.py	2
 sudo conf/network/socksproxy.sh manual 127.0.0.1 1080	2
+sudo pip install urlparse3	2
+Permission denied (publickey).	2
 sudo apt -f install libappindicator1	2
+git commit -m "modify history.py	2
 cd !	2
+docker network connect --ip 192.168.1.104 eth0 d39566ffed1d	2
 sudo apt upgrade --fix-missing	2
+docker run -d -p 80:80 hypriot/rpi-busybox-httpd	2
 cd /	2
+sudo pip3 install libxml2	2
+cd iptables/	2
 sudo apt-get update	2
-sduo . /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	2
+docker run -t -i --network='host' arm32v7/python python FindSendIP.py	2
 docker stop cranky_turing	2
+sudo vim /usr/local/lib/python3.5/dist-packages/restkit/client.py	2
 mkdir -p a/{b, c}/d	2
+docker run -t it  arm32v7/python /bin/bash	2
+docker run -d -P armhf/python  /bin/bash/	2
+sudo apt-get install ntpdate	2
+sudo pip3 install pyqeury	2
 cd /etc/selinux/	2
 cd .ssh	2
 cd c	2
 cd b	2
-s	2
+sudo apt-get install libxml2	2
+sudo apt-get install chkconfig	2
 sudo apt remove puppet	2
 sudo cp my_hist.log /media/sf_Share/	2
+mkdir Scrapy	2
+git pul	2
+cat /etc/samba/smb.conf	2
+docker rm 913025005f07	2
 ls conf/network/ss-60.json	2
-ls -l /home/pi/python_code/hello1.txt	2
+curl https://pypi.python.org/pypi/pip/pip-9.0.1.tar.gz	2
+python3 FindSendIP1.py	2
+docker search armhf	2
+pip install upgrade pyopenssl	2
+sudo dpkg -i code_1.14.2-1500506907_amd64.deb	2
 git commit -m 'Find MyIP finished'	2
-sudo docker attach 0972065e4f31	2
+git pull git@github.com:lilycat0612/myScrapy.git	2
 chrome	2
+cd backup	2
 docker search django	2
-sudo apt-get install cStringIO	2
 sudo service network-manager resart	2
+netstate -tulpn	2
 sudo dpkg -P chrome-stable-amd64.deb	2
+cd Scrapy/myScrapy/	2
 mynet.s	2
 ./ jmeter.sh	2
-cd /home/pi/python_code/Scrapy/	2
+docker search pip	2
 cat helloworld.py	2
+docker run -i -t --net=host armhf/python /bin/bash	2
 sudo service firewall status	2
+ping https://pypi.python.org/simple/	2
+pip3 uninstall lxml	2
 cd lily/	2
+docker run -i -t arm32v7/python /bin/bash	2
+pip install WebOb	2
 ~	2
-docker run -ti --network='host' armhf/python /bin/bash	2
+docker rmi hypriot/rpi-busybox-httpd	2
+cd containers	2
+docker network connect 192.168.1.104	2
+sudo push	2
+docker attach dreamy_goldberg	2
 cat /home/lily/Downloads/geckodriver	2
-pip install scrapy	2
+docker run -t -i --network='host' arm32v7/python python copy.py	2
 sudo apt install vim	2
+docker run -ti -network='host' armhf/python /bin/bash	2
 sudo kill -9 4572	2
+sudo docker images	2
+pip3 install upgrade cssselect	2
+pip3 install cStringIO	2
+cd /home/pi/python_code/pi/	2
+cat /proc/version	2
 docker logs cranky_turing	2
 passwd root	2
 sudo apt list --upgradable	2
+chmod pi backup.txt	2
 sudo killall -9 python*	2
-sudo git push	2
-cd /home/pi/Downloads/	2
+pip install Twisted==16.0.0	2
+docker -d &	2
+rm code	2
+docker search rpi-python	2
 sudo git rm dev_backup.tar.gz	2
+docker network connect --help]	2
 sudo netstat -tupn	2
+ping http://pypi.douban.com/simple	2
 docker top 4ee66f0f04d6	2
 pip3 install Selenium	2
+sudo pip install cssselect	2
 sudo rebot -n	2
-docker rmi hypriot/rpi-python	2
-cat /etc/hosts	2
+sudo reboot	2
+docker	2
+wget https://pypi.python.org/pypi/pip/pip-9.0.1.tar.gz	2
 getenforce	2
 history > ../install-cmd-list.txt	2
+telnet	2
+docker run --help	2
+crul https://pypi.python.org/pypi/pip/	2
+sudo git commit -am 'hello'	2
 rm -rf c}	2
+cd pi/python_code/pi	2
 pip install pyqurey	2
+sudo service ntpd stop	2
+git history	2
 sudo systemctl start esshd.service	2
 sudo apt install python-pip	2
+sudo docker run -t -i qbtrade/python /bin/bash	2
+git commit -m "commit rpi cmd.txt"	2
 mynet.sh	2
 sudo cat /proc/sys/net/ipv4/ip_forward	2
 easy_install pyquery	2
-pip3 install upgrade -i https://pypi.python.org/pypi	2
+cd /home/pi/	2
 sudo kill -9 5132	2
+sudo pip3 install restkit	2
 sudo kill -9 5032	2
 cd /media/sf_Share/	2
 docker logs 4ee66f0f04d6	2
+/etc/init.d/cron restart	2
+sudo git remote set-url origin git@github.com:lilycat0612/rpi.git	2
+sudo pip3 install update pip	2
 sudo systemctl sshd.service start	2
-docker network inspect bridge	2
+docker -D &	2
 iftop	2
+tar zxvf pyquery-1.2.17.tar.gz	2
 sudo apt upgrade	2
 scp winsonsun@192.168.1.26:chrome-stable-amd64.deb ./chrome-stable-amd64.deb	2
+sudo cd containers	2
+scat crontab	2
+python3 setup.py upgrade	2
 docker run -d ubuntu:15.10 /bin/sh -c "while true;do echo hello world;sleep 1;done"	2
+docker run -it armhf/python /bin/bash	2
+docker run -d -P armhf/python /bin/bash	2
 sudo apt install openssh-server	2
+ps aux | grep ntpd	2
+cd python_code/Scrapy/myScrapy/	2
+docker pull hypriot/rpi-python	2
 scrapy crawl weisu	2
 sudo service docker.io restart	2
+images	2
 ll -alh conf/network/mynet.sh	2
+sudo git add *	2
+Downloading/unpacking pyquery	2
 ls -alh | less	2
+sudo apt-install ntpdate	2
+git commit -m "Send Email if the IP is changed"	2
 sudo netstat -tulpn | grep 1080	2
 git commit -am "Finished"	2
 exit	2
-cat /home/pi/python_code/hello.sh	2
-docker pull arm32v7/python	2
+docker touch thirsty_blackwell	2
+sudo ssh-keygen -t rsa -C '27803532@qq.com'	2
+docker run -d -P armhf/python pytho	2
+git clone git@github.com:lilycat0612/myScrapy.git	2
+git commit -m "modify history.py"	2
+sudo pip install pyquery	2
+sudo docker rm 51b6af2f9a9b	2
+docker rm d6e144e304e9	2
+docker attach nonenetcontainer	2
 sudo killall python*	2
-sudo vim backup.txt	2
+cd /usr/local/bin/python3.5	2
+pip3 install --upgrade lxml	2
 shutdow -r	2
+cat backup.txt	2
+sudo chown pi /home/pi/python_code/hello.txt	2
+cd pip-9.0.1/	2
+cat /backup/backup.txt	2
+uTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuT	2
 /lily/python/myScrapy/myFirst/myFirst/spiders/scarpy crawl weisuen --nolog	2
 sudo netstatus	2
-pip3 install lxml	2
+sudo dpkg -i code_1.14.2-1500506872_i386.deb	2
+docker network connect --help	2
 kill -9 2758	2
+pip3 install cssselect	2
+docker port CONTAINER	2
+cd /var/lib/docker/	2
+service ntpd stop	2
+docker network connect --ip 192.168.1.104 host d39566ffed1d	2
 sudo service start sshd.service	2
-sudo python3 setup.py install	2
+sudo crontab	2
+docker stop 51b6af2f9a9b	2
+pip install upgrade pip	2
+mv /home/pi/python_code/Scrapy/myScrapy/myFirst.sh ./	2
+uname -v	2
+docker rmi qbtrade/python	2
 history > my_hist.log	2
+docker image	2
 git commit -m "Moveout CountDupLines"	2
-sudo pip3 install lxml	2
+cde ..	2
+ping 192.168.104	2
+docker network connect --ip 192.168.1.104	2
 cd Selenium-master/	2
 . conf/network/mynet.sh	2
 sudo apt install libappindicator1	2
 sshpass -p "pi" scp /home/lily/Downloads/*.torrent pi@192.168.1.104:/home/pi/BT	2
 sudo sslocal -c ~/conf/network/ss-60.json	2
-python3 setup.py install	2
+sudo restart -n	2
 sudo kill -9 5002	2
-pip -v	2
 docker run -v $PWD/myapp:/usr/src/myapp -w /usr/src/myapp python:3.4 python helloworld.py	2
 sudo systemctl enable sshd	2
+docker attach 1323defe103a	2
+sudo pip install WebOb	2
+cat ~/.bashrc	2
 pip upgrade	2
+cat /etc/init.d/	2
+sudo apt-get install python3-lxml	2
+sudo vim /home/pi/python_code/hello1.txt	2
 rm -rf ./*	2
 pip --version	2
 sudo killall python	2
 cd python	2
+cd home/pi/python_code/Scrapy/	2
+sudo restart now	2
+vim history.py	2
 /lily/python/myScrapy/myFirst/myFirst/spiders/ scarpy crawl weisuen --nolog	2
 conf/network/socksproxy.sh none	2
+sudo apt-get install pip	2
 sudo service start sshd	2
+sudo pip3 install scrapy	2
 sudo apt install java	2
 cd usr/lily	2
-chkconfig --list	2
-sudo vim IP.txt	2
+sudo pip install scrapy	2
+pip install webob	2
 sudo service start ssh	2
+docker attch thirsty_blackwell	2
 git commit -m 'Find and send MyIP manually'	2
 mkdir GitHub	2
-rm code_1.14.2-1500506907_amd64\ \(1\).deb	1
-. history.sh	1
-docker attach bcf18d89b057	1
-docker run -ti --network='host' arm32v7/python /bin/bash	1
 vim history.sh	1
 scp	1
 rm BadboyInstaller-2.2.5\ \(1\).exe	1
 mv ~/conf/BT.sh ./	1
-docker run -ti armhf/python /bin/bash	1
 cd mySelenium/	1
-git pullgit@github.com:lilycat0612/myScrapy.git	1
-sudo pip3 install urllib.parse	1
 echo $PATH	1
-pa aux | grep ntpd	1
-git log	1
-list	1
 export PATH=$PATH:~/Downloads/geckodriver	1
-sudo pip install lxml	1
-cd pyquery-1.2.17/	1
-docker -D	1
-tar zxvf pip-9.0.1.tar.gz	1
-scrapy3 crawl weisuen --nolog	1
-sudo pip3 install libxml	1
 reboot -h now	1
-docker rm $(docker ps -a -q)	1
 scp /home/lily/Downloads/*.torrent pi@192.168.1.104:/home/pi/BT	1
 rm -rf backup/	1
-. /home/pi/python_code/hello.sh >> /home/pi/python_code/hello1.txt	1
-ping https://pypi.python.org	1
-version	1
-cd /usr/local/lib/python3.5	1
 sudo git add etc_backup.tar.gz	1
-ls --color	1
-docker run -t -i --network='host'arm32v7/python python /home/FindSendIP.py	1
-cd python_	1
-ping https://pypi.python.org/simple	1
-sudo pip3 install cssselect	1
-sudo docker attach 0972065e431	1
+cd Del/	1
 rm -rf rpi_backup/	1
-docker network connect --ip 192.168.1.104 bridge d39566ffed1d	1
-cat conn.py	1
-sudo pip3 uninstall pyquery	1
-python setup.py install	1
-docker run -i -t rgooler/rpi-python3 /bin/bash	1
 git reset HEAD	1
-sudo dpkg -icode_1.14.2-1500506907_amd64.deb	1
-docker run -itd -network	1
 sudo add backup.txt	1
-pip version	1
 git rm --cached cmd.txt	1
-sudo apt-get install python-dev	1
-sudo pip3 install upgrade pyqeury	1
-cd home	1
-docker cp email.txt 1323defe103a:/home/email.txt	1
-ping www.python.org	1
-sudo pip3 install --upgrade lxml	1
-sudo apt-get install urlparse	1
-docker port dreamy_goldbery	1
-pip3 install upgrade lxml	1
-sudo dpkg code_1.14.2-1500506907_amd64.deb	1
-docker run -d -P armhf/python  /bin/bash/python	1
+docker search rpi-selenium	1
 mv /home/lily/python/myScrapy/myFirst/CountDupLines/ ./	1
 cd /home/lily/Downloads	1
-cat scrapy.cfg	1
-cd python_code/Scrapy/myScrapy/myFirst/	1
-docker run -i -t hypriot/rpi-python /bin/bash	1
-rm code_*	1
 git checkoout --cmd.txt	1
-sudo pip3 uninstall lxml	1
-sudo	1
-docker run -t -i arm32v7/python /bin/bash	1
-docker inspect -f '{{.Id}}' 1323defe103a	1
 sudo pip install xlwt	1
-sudo chown pi backup.txt	1
-docker port	1
+rm IP.txt	1
 cat chromedriver	1
-git commit -m "Pass if run myFirst.sh but FAIL if run crontab"	1
-pip install cssselect	1
-vim rules.v4	1
-chown pi pi /home/pi/python_code/hello.txt	1
-sudo pip3 install update pyqeury	1
-pip3 install upgrade pyquery	1
 sudo cp geckodriver /usr/local/bin/	1
-cd /usr/local/bin/python3,5	1
-git remote -v	1
-uname -i	1
-uname -o	1
-mv /home/pi/python_code/Scrapy/myFirst.sh ./	1
-docker connect thirsty_blackwell	1
 sudo apt install sshpass	1
-sudo pip3 install upgrade pyquery	1
-docker run -t -i qbtrade/python /bin/bash	1
-sudo dkpg -i code_1.14.2-1500506872_i386.deb	1
-curl -o https://pypi.python.org/packages/dc/37/c2012b88a0ba957b5f27619054eaf21d66b7fd7261d8ade998f1e154eb46/pyquery-1.2.17.tar.gz#md5=d717362281a7b284511f4693b9a1f336	1
+reboot now	1
 git commit -m 'modify history.py'	1
-sudo pip install Twisted==16.0.0	1
-cd sysconfig	1
-sudo restart -h now	1
-cat hello.sh	1
+git commit -m "Modify scrapy"	1
+cat history.py	1
 sudo pip install browser_cookie	1
 git config --global	1
-cat rules.v4	1
-sudo . /home/pi/python_code/hello.sh >> /home/pi/python_code/hello.txt	1
-docker attach thirsty_blackwell	1
-pip3 help install	1
 cd BT	1
-docker run -d -P -ti armhf/python  /bin/bash/	1
-sudo vim runlog.txt	1
-cp myFirst/spiders/email.txt ./	1
-docker python	1
-scrapy crawl weisun --nolog	1
 sudo git rm etc_backup.tar.gz	1
-docker network connect eth0 d39566ffed1d	1
-cd python_c	1
 rm *.torrent	1
-cd myFirst/CountDupLines/	1
-docker --help	1
-cat /backup/backup.sh	1
-telnet -tulpn	1
-cd /etc/init.d/	1
-cd /etc/init.d	1
-cp myFirst/spiders/IP.txt ./	1
 git add boot_backup.tar.gz	1
-sudo git fetch	1
-sudo chown pi pi /home/pi/python_code/hello1.txt	1
-pip install update pyopenssl	1
-cd /etc/crontab	1
-pip uninstall pip	1
-sudo telnet localhost 10422	1
-sudo chown pi /home/pi/python_code/hello1.txt	1
-sudo pip3 install urlparse2	1
-chkconfig	1
-sudo restart	1
-pip install version	1
-sudo apt-get install python3-dev	1
-pip3 install update pip	1
-ping pypi.python.org/pypi	1
-vnserver	1
-sudo pip3 install cStringIO	1
+cd myFirst/myFirst/	1
+rm email.txt	1
 scrapy list	1
 cat Cookies	1
-vim crontab	1
-sudo vim conn.py	1
-vim sudo backup.sh	1
-sudo telent localhost 10422	1
 vim history.txt	1
-sudo apt-get install libxslt1-dev	1
 62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c	1
 sudo pip install selenium	1
-sudo dpkg -I code_1.14.2-1500506907_amd64.deb	1
-sudo pip3 install WebOb	1
-cd /home/pi/python_code/	1
-docker network connect --ip 192.168.1.104 none d39566ffed1d	1
-pip3 install --upgrade cssselect	1
-docker pull armhf/python	1
-python3 setup.py	1
-git fetch git@github.com:lilycat0612/myScrapy.git	1
-docker -help	1
-sudo cp conn.py conn.py.backup	1
-ntpdate asia.pool.ntp.org	1
 echo $PATHH	1
-sudo backup.sh	1
 sudo pip install requests	1
-cd /usr/local/lib/python3.5/dist-packages/restkit/	1
-cat /sbin/init	1
-cat /etc/resolv.conf	1
-sudo iptables -A INPUT -p tcp -m state --state NEW -m tcp --dport 10422 -j ACCEPT	1
+git commit -m "Modify"	1
 chmod +x geckodriver	1
-cat ~/.ssh/id_rsa.pub	1
-docker run -itd -network=eth0 armhf/python /bin/bash	1
-curl https://pypi.python.org/pypi?:action=show_md5&digest=35f01da33009719497f01a4ba69d63c9	1
 sudo git remote add -f origin git@github.com lilycat0612@rpi_backup.git	1
-sudo ls	1
 sudo reboot -h now	1
-./myFirst.sh	1
-ping pypi.python.org/simple	1
-git remote set-url origin git@github.com:lilycat0612/rpi.git	1
-docker run -t -i --network='host'armhf/python python /home/FindSendIP.py	1
-pip3 install -U	1
 scrapy crawl ttmeiju	1
-iptables-save	1
 755	1
-docker network connect --ip 192.168.1.104 d39566ffed1d	1
-git fetch	1
 git remote add origin git@github.com:lilycat0612/CountDupLines.git	1
-curl https://pypi.python.org/pypi/pip/	1
-cat /home/pi/python_code/Scrapy/myScrapy/myFirst.sh	1
-pip3 install upgrade -i https://testpypi.python.org/pypi	1
-pip3 install --upgrade	1
-docker stop e42f419e4c5e	1
 git config --list	1
-docker attach 0972065e431	1
 cat history.txt	1
-sudo docker rmi qbtrade/python	1
-docker run -ti arm32v6/alpin:3.5 /bin/sh	1
 cat PATH	1
-docker run -d -P -ti armhf/python  /bin/bash	1
-docker pull rgooler/rpi-python3	1
-iptables	1
-docker rmi rgooler/rpi-python3	1
 sudo git add backup.txt	1
-sudo git commit -m 'send email successfully by docker'	1
-docker port unknown	1
-cat FindSendIP.py	1
 rm *torrent*	1
-docker run --dns	1
 mkdir BT	1
 git config	1
 sudo git add boot_backup.tar.gz	1
-telnet localhost 10422	1
-docker rmi $(docker images -q)	1
 git config -f	1
 scrapy crawl ttmeiju --nolog	1
-sudo pip install urlparse3	1
-Permission denied (publickey).	1
 sudo git remote add 0f origin git@github.com lilycat0612@rpi_backup.git	1
+ssh -T git@github.com	1
 git commit -m 'mv IP.txt and email.txt to spriders'	1
-git commit -m "modify history.py	1
-docker network connect --ip 192.168.1.104 eth0 d39566ffed1d	1
 sudo git add etc.tar.gz	1
-docker run -d -p 80:80 hypriot/rpi-busybox-httpd	1
 git clone https://github.com/lilycat0612/rpi_backup.git	1
 rm chromedriver_linux64*	1
-sudo pip3 install libxml2	1
-cd iptables/	1
-docker run -t -i --network='host' arm32v7/python python FindSendIP.py	1
-sudo vim /usr/local/lib/python3.5/dist-packages/restkit/client.py	1
-docker run -t it  arm32v7/python /bin/bash	1
-docker run -d -P armhf/python  /bin/bash/	1
-sudo apt-get install ntpdate	1
-sudo pip3 install pyqeury	1
-sudo apt-get install libxml2	1
-sudo apt-get install chkconfig	1
 sudo git add home_backup.tar.gz	1
 sudo git commit -m 'backup for 7.23'	1
 cd myFirst/spiders/	1
-mkdir Scrapy	1
-git pul	1
-cat /etc/samba/smb.conf	1
-docker rm 913025005f07	1
-curl https://pypi.python.org/pypi/pip/pip-9.0.1.tar.gz	1
 sudo pip install browsercookie	1
-python3 FindSendIP1.py	1
-docker search armhf	1
-pip install upgrade pyopenssl	1
-sudo dpkg -i code_1.14.2-1500506907_amd64.deb	1
-git pull git@github.com:lilycat0612/myScrapy.git	1
-cd backup	1
+git config --local -e	1
+cd python_code/Del/	1
 git difff	1
 cd Default/	1
-netstate -tulpn	1
 sudo git commit -am 'backup 7.24'	1
-docker search pip	1
 pwd	1
 sudo git add boot.tar.gz	1
 mkdir CountDupLines	1
-docker run -i -t --net=host armhf/python /bin/bash	1
-ping https://pypi.python.org/simple/	1
-pip3 uninstall lxml	1
+sudo ssh -vT git@github.com	1
+mkdir Del	1
 sudo git commit -m 'backup.txt'	1
-docker run -i -t arm32v7/python /bin/bash	1
-pip install WebOb	1
-docker rmi hypriot/rpi-busybox-httpd	1
-cd containers	1
-docker network connect 192.168.1.104	1
-sudo push	1
-docker attach dreamy_goldberg	1
-docker run -t -i --network='host' arm32v7/python python copy.py	1
 git config --global user.name 'lilycat0612'	1
-docker run -ti -network='host' armhf/python /bin/bash	1
 git onfig	1
-sudo docker images	1
-pip3 install upgrade cssselect	1
-pip3 install cStringIO	1
-cd /home/pi/python_code/pi/	1
-cat /proc/version	1
-chmod pi backup.txt	1
-pip install Twisted==16.0.0	1
-docker -d &	1
-rm code	1
 cat /backup.sh	1
-docker search rpi-python	1
-docker network connect --help]	1
-ping http://pypi.douban.com/simple	1
 sudo pip install pickle	1
-sudo pip install cssselect	1
-sudo reboot	1
-docker	1
-wget https://pypi.python.org/pypi/pip/pip-9.0.1.tar.gz	1
+reboot -r now	1
 git init	1
-sudo git pull	1
-telnet	1
-docker run --help	1
-crul https://pypi.python.org/pypi/pip/	1
 sudo push origin master	1
-sudo git commit -am 'hello'	1
 sudo rm -rf backup/	1
 git rm cmd.txt	1
-cd pi/python_code/pi	1
-sudo service ntpd stop	1
-git history	1
 git push -u origin master	1
-sudo docker run -t -i qbtrade/python /bin/bash	1
-cd /home/pi/	1
-sudo pip3 install restkit	1
-/etc/init.d/cron restart	1
-sudo git remote set-url origin git@github.com:lilycat0612/rpi.git	1
-sudo pip3 install update pip	1
 scp -pw	1
 git commit -m "1"	1
-docker -D &	1
 git config --global user.email '27803532@qq.com'	1
 git help -a	1
-tar zxvf pyquery-1.2.17.tar.gz	1
 git commit -m "Add CountDupLines"	1
-sudo cd containers	1
-scat crontab	1
-python3 setup.py upgrade	1
 ;s	1
-docker run -it armhf/python /bin/bash	1
-docker run -d -P armhf/python /bin/bash	1
-ps aux | grep ntpd	1
-cd python_code/Scrapy/myScrapy/	1
-docker pull hypriot/rpi-python	1
-images	1
-sudo git add *	1
-Downloading/unpacking pyquery	1
 sudo git rm home_backup.tar.gz	1
-sudo apt-install ntpdate	1
-git commit -m "Send Email if the IP is changed"	1
-docker touch thirsty_blackwell	1
-sudo ssh-keygen -t rsa -C '27803532@qq.com'	1
-docker run -d -P armhf/python pytho	1
-git clone git@github.com:lilycat0612/myScrapy.git	1
-git commit -m "modify history.py"	1
 sudo cp *.gz /home/backup/rpi_backup/	1
-sudo pip install pyquery	1
-sudo docker rm 51b6af2f9a9b	1
-docker rm d6e144e304e9	1
-docker attach nonenetcontainer	1
 754*	1
-cd /usr/local/bin/python3.5	1
-pip3 install --upgrade lxml	1
 git checkout --cmd.txt	1
-cat backup.txt	1
 git rm dev_backup.tar.gz	1
-sudo chown pi /home/pi/python_code/hello.txt	1
-cd pip-9.0.1/	1
-cat /backup/backup.txt	1
-uTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuT	1
-sudo dpkg -i code_1.14.2-1500506872_i386.deb	1
-docker network connect --help	1
-pip3 install cssselect	1
-docker port CONTAINER	1
 pip install selenium	1
-cd /var/lib/docker/	1
-service ntpd stop	1
-docker network connect --ip 192.168.1.104 host d39566ffed1d	1
-sudo crontab	1
-docker stop 51b6af2f9a9b	1
-pip install upgrade pip	1
 sudo git add home.tar.gz	1
-mv /home/pi/python_code/Scrapy/myScrapy/myFirst.sh ./	1
 git help	1
-uname -v	1
-docker rmi qbtrade/python	1
 cp ~/Downloads/chromedriver ./	1
 sudo git remote add origin git@github.com lilycat0612@rpi_backup.git	1
 cd google-chrome/	1
-docker image	1
-cde ..	1
-ping 192.168.104	1
-docker network connect --ip 192.168.1.104	1
 git commit -m "For download BT files from myrss in ttmeiju.com"	1
 cd ~/Downloads/	1
-sudo restart -n	1
-docker attach 1323defe103a	1
-sudo pip install WebOb	1
-cat ~/.bashrc	1
-cat /etc/init.d/	1
-sudo apt-get install python3-lxml	1
-sudo vim /home/pi/python_code/hello1.txt	1
 [A	1
 tar zxvf geckodriver-v0.18.0-linux64.tar.gz	1
-cd home/pi/python_code/Scrapy/	1
-sudo restart now	1
-vim history.py	1
-sudo apt-get install pip	1
-sudo pip3 install scrapy	1
 62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c62;c	1
-sudo pip install scrapy	1
-pip install webob	1
-docker attch thirsty_blackwell	1
+ca myFirst	1
